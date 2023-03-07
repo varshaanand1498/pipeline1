@@ -3,7 +3,9 @@ pipelie {
  stages { 
    stage ('BUILD') {
      steps {
+      sh '''
        echo "This is build stage"
+         '''
        }
    }
    }
